@@ -14,7 +14,7 @@ We use the FedAvg algorithm (https://arxiv.org/abs/1602.05629) which is the firs
 * Number of local epochs (E): In each training round, the local party will train the local model for several epochs and then uploads the updated model to the central server. The more local epochs performed by the local party, the local model better remembers its local training data.
 
 # Implementation
-You can run the following code to implement the source inference attacks. The datasets provided in this rep are `Synthetic` and `MNIST` datasets. You can try different `--alpha` (data distribution), `--number_users`(number of parties), `--local_ep` (number of local epochs) to see how the attack performance changes.
+You can run the following code to implement the source inference attacks. The datasets provided in this rep are `Synthetic` and `MNIST` datasets. You can try different `--alpha` (data distribution), `--number_users`(number of parties), `--local_ep` (number of local epochs) to see how the attack performance changes. For `Synthetic` dataset, we use `--model=mlp`. For `MNIST` dataset, we use `--model=cnn`.
 ```python
-python main_fed.py --dataset=Synthetic --alpha=1 --number_users=10 --local_ep=5
+python main_fed.py --dataset=Synthetic --model=mlp --alpha=1 --number_users=10 --local_ep=5
 ```
