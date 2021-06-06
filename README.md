@@ -19,7 +19,7 @@ You can run the following code to implement the source inference attacks. The da
 python generate_synthetic.py
 ```
 
-You can try different `--alpha` (data distribution), `--number_users`(number of parties), `--local_ep` (number of local epochs) to see how the attack performance changes. For `Synthetic` dataset, we use `--model=mlp`. For `MNIST` dataset, we use `--model=cnn`.
+You can try different `--alpha` (data distribution), `--number_users`(number of parties), `--local_ep` (number of local epochs) to see how the attack performance changes. For `Synthetic` dataset, we set `--model=mlp`. For `MNIST` dataset, we set `--model=cnn`.
 ```python
 python main_fed.py --dataset=Synthetic --model=mlp --alpha=1 --number_users=10 --local_ep=5
 ```
