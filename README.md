@@ -1,7 +1,7 @@
 # Source-inference-FL
 This repository contains the source code of the paper "SIA: Source Inference Attack in Federated Learning" for evaluating source inference attack in federated learning (FL). 
 
-# Requirement
+# Requirement 
 * torch==1.8.1
 * numpy==1.18.1
 * torchvision=0.9.1
