@@ -1,4 +1,4 @@
-# test-anonymous
+# Source-inference-FL
 This repository contains the source code for evaluating source inference attack in federated learning (FL). 
 
 # Requirement
