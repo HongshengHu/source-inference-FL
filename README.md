@@ -5,7 +5,7 @@ This repository contains the source code of the paper "Source Inference Attacks 
 * torch==1.8.1
 * numpy==1.18.1
 * torchvision==0.9.1
-* sklearn
+* sklearn==0.22.1
 
 # Key factors
 We use the FedAvg algorithm (https://arxiv.org/abs/1602.05629) which is the first and perhaps the most widely used FL algorithm to train the FL models. We investigate two factors in FedAvg influencing the source inference attack performance.
